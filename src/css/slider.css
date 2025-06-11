@@ -1,0 +1,11 @@
+#app {
+  height: 100%;
+}
+.slider{
+   width: 500px;
+}
+@media (max-width:480px) {
+  .slider{
+   width: 10vh;
+}
+}

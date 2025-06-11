@@ -1,0 +1,290 @@
+.hero2 {
+  align-items: center;
+  justify-content: space-around;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url(../images/images/slide2-bg.jpg);
+}
+.headding2 {
+  font-family: "Segoe Script", cursive;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-around;
+  animation-name: headding-ani;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+}
+@keyframes headding-ani {
+  0% {
+    transform: translatex(450px);
+  }
+  70% {
+    transform: translatex(-250px);
+  }
+  100% {
+    transform: translatex(0px);
+  }
+}
+
+.hero2 h1 {
+  width: 520px;
+  font-size: 42px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  animation-name: h1-ani2;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  z-index: 1;
+}
+@keyframes h1-ani2 {
+  10% {
+    color: #60336e;
+  }
+
+  100% {
+    color: rgba(237, 151, 243, 0.793);
+  }
+}
+.hero2-para {
+  color: rgba(227, 144, 233, 0.909);
+  font-size: 1.3rem;
+  padding: 10px;
+  border-radius: 20px 30px 0 20px;
+  margin-left: 120px;
+  max-width: 300px;
+  animation-name: p-ani;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  z-index: 1;
+  backdrop-filter: blur(1px);
+  background-color: #ffffff10;
+}
+@keyframes p-ani {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.herojarimg {
+  display: flex;
+  position: absolute;
+  left: 600px;
+  object-fit: cover;
+  height: 580px;
+  animation-name: CUP-ani;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+  z-index: 2;
+}
+@keyframes CUP-ani {
+  0% {
+    transform: translatex(-600px);
+  }
+  50% {
+    transform: translatex(0px);
+  }
+  60% {
+    transform: translatex(-100px);
+  }
+  80% {
+    transform: translatex(-200px);
+  }
+  100% {
+    transform: translatex(0px);
+  }
+}
+
+.img1 {
+  height: 70px;
+  opacity: 1;
+  position: relative;
+  left: 10px;
+  top: -100px;
+
+  animation-name: cocho-ani1;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes cocho-ani1 {
+  0% {
+    transform: translatex(0px);
+  }
+  50% {
+    transform: translatex(15px);
+  }
+  65% {
+    transform: translatex(10px);
+  }
+  80% {
+    transform: translatex(25px);
+  }
+  100% {
+    transform: translatex(10px);
+  }
+}
+
+.img2 {
+  height: 50px;
+  opacity: 0.8;
+  position: relative;
+  left: 180px;
+  top: -70px;
+  z-index: 0;
+  animation-name: cocho-ani2;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes cocho-ani2 {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  60% {
+    transform: translateY(25px);
+  }
+  80% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(5px);
+  }
+}
+
+.img3 {
+  height: 60px;
+  opacity: 0.8;
+  position: relative;
+  left: -200px;
+  bottom: 150px;
+  animation-name: cocho-ani1;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.img4 {
+  height: 50px;
+  opacity: 1;
+  position: relative;
+  bottom: 140px;
+  right: -280px;
+  z-index: 2;
+  animation-name: cocho-ani2;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.img5 {
+  height: 60px;
+  opacity: 0.7;
+  position: relative;
+  bottom: 100px;
+  right: 150px;
+  z-index: 0;
+  animation-name: cocho-ani2;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.img6 {
+  height: 60px;
+  opacity: 1;
+  z-index: 2;
+  position: relative;
+  bottom: 100px;
+  right: 20px;
+  animation-name: cocho-ani1;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.img7 {
+  height: 50px;
+  opacity: 1;
+  z-index: 2;
+  position: relative;
+  bottom: 50px;
+  right: 120px;
+  animation-name: cocho-ani2;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.btn2 {
+  background-image: linear-gradient(90deg, #809eff, #ff4dfc);
+  color: #2f1032f4;
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: ease 0.3s, color 0.3s;
+  box-shadow: 0 4px 16px rgba(184, 160, 136, 0.2);
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background: #fff;
+  color: #4e2e1e;
+}
+@media (max-width: 480px) {
+  .hero2 {
+    padding: 10px;
+  }
+  .hero2 h1 {
+    width: 100px;
+    font-size: 20px;
+  }
+  .hero2-para {
+    display: flex;
+    position: relative;
+    right: 80px;
+    bottom: 50px;
+    font-size: 14px;
+    max-width: 180px;
+    height: 50px;
+  }
+
+  .herojarimg {
+    left: 100px;
+    height: 180px;
+  }
+  .img1 {
+    height: 25px;
+  }
+  .img2 {
+    height: 25px;
+  }
+  .img3 {
+    height: 15px;
+  }
+  .img4 {
+    height: 25px;
+    position: relative;
+    bottom: 140px;
+    left: -80px;
+  }
+  .img5 {
+    height: 15px;
+  }
+  .btn2 {
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+  }
+}

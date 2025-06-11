@@ -1,0 +1,31 @@
+.box {
+  opacity: 0;
+}
+
+@media (max-width: 480px) {
+  .box {
+    opacity: 1;
+    background-color: rgb(191, 157, 113);
+    padding: 10px;
+    position: relative;
+    top: 120px;
+    right: 100px;
+    z-index: 1000;
+  }
+}
+nav1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  font: 22px Mulish, sans-serif;
+  font-weight: 600;
+  
+}
+
+.anchor:hover {
+  font-weight: bold;
+  color: brown;
+  transform: scale(1.2);
+  padding: 10px;
+}

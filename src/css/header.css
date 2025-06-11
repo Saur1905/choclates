@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  background: #3e2723;
+  color: #fff;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 10px;
+  height: 70px;
+  box-shadow: 1px 1px 2px 1px rgba(36, 35, 34, 0.503);
+}
+
+.logo h1 {
+  font-family: "Segoe Script", cursive;
+  font-size: 2rem;
+  margin: 0;
+  color: #ffcc80;
+  letter-spacing: 2px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+nav ul li a:hover {
+  color: #ffcc80;
+}
+button {
+  background: #ffcc80;
+  color: #3e2723;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 22px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #fff3e0;
+  color: #3e2723;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font: 22px Mulish, sans-serif;
+  font-weight: 600;
+  justify-content: center;
+}
+.anchor {
+  background: linear-gradient(90deg, #81337f, rgb(171, 85, 99));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  text-decoration: none;
+}
+.anchor:hover {
+  text-decoration: underline;
+  text-decoration-color: #ffcc80;
+}
+
+i {
+  background: linear-gradient(
+    #ffcc80,
+    rgba(255, 255, 255, 0.905),
+    rgba(202, 149, 208, 0.893)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-size: 32px;
+}
+
+@media (max-width: 420px) {
+  .logo h1 {
+    font-size: 12px;
+  }
+  nav {
+    display: none;
+  }
+  .link {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .btn_form {
+    display: flex;
+  }
+  button {
+    height: 30px;
+  }
+
+
+}
