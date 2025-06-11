@@ -53,7 +53,9 @@ button:hover {
   background: #fff3e0;
   color: #3e2723;
 }
-
+.menubtn {
+  display: none;
+}
 nav {
   display: flex;
   align-items: center;
@@ -106,6 +108,7 @@ i {
   button {
     height: 30px;
   }
-
-
+  .menubtn {
+    display: block;
+  }
 }
