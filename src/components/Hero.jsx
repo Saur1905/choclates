@@ -43,6 +43,7 @@ export const Hero = () => {
                 Experience the rich, velvety taste of our handcrafted chocolates,
                 made with the finest ingredients.
               </p>
+              
             </div>
           </div>
     </>
